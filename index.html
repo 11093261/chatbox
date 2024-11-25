@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/src/output.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <main class="h-[100vh] w-[100%]  bg-sky-400 flex flex-col justify-center items-center">
+        <section class="h-[60vh] bg-white justify-center items-center md:w-[50%] w-[100%] flex flex-col rounded-xl border-2 border-black shadow shadow-black">
+            <div class="h-[20vh] bg-green-400 w-[100%]">
+                <div class="flex flex-row justify-between items-center">
+
+                    <div class="images flex flex-row gap-5 items-center px-3 py-3">
+                        <div>
+
+                            <img class="w-[50px] h-[50px] rounded-full" src="./images/ben.jpeg" alt="">
+                        </div>
+                        <div class="flex flex-col justify-center items-center font-medium text-white">
+    
+                            <p>Mureiah Paul</p>
+                            <p class="mr-[50px]">Online</p>
+                        </div>
+    
+                        
+                    </div>
+                    <div class="flex flex-row justify-center items-center  gap-[40px] px-8 py-0">
+                        <i class="bi bi-telephone"></i>
+                        <i class="bi bi-camera-video"></i>
+    
+                    </div>
+                </div>
+            </div>
+            <section class="flex flex-row justify-between gap-[40px] items-center h-[100%] w-[100%] px-5 overflow-y-scroll z-30 overscroll-y-contain overflow-visible over">
+                <div class="bg-white h-[10vh] w-[40%] text-center shadow shadow-black rounded-xl flex justify-center items-center " id="first" onchange="add(buttons)"></div>
+                <div class=" h-[10vh] w-[40%] text-center shadow shadow-black rounded-xl bg-violet-600 text-white justify-center items-center flex" id="second" onchange="add(buttons)"></div>
+            </section>
+
+        </section>
+        <section class="h-[30vh] flex flex-col justify-center items-center md:w-[50%] w-[100%] ">
+            <form action="" class="bg-white flex flex-row justify-center gap-4 items-center md:w-[50vw] p-[40px] w-[100%] border-2 border-black rounded-lg shadow shadow-black">
+                <i class="bi bi-camera"></i> 
+
+                <input class="w-[60vw] outline-red-600 text-left px-3 h-[10vh] outline-none rounded-xl  " type="text" name="" id="" placeholder="Type messages here">
+            </form>
+
+        </section>
+    </main>
+    <script src="/script.js"></script>
+
+    
+</body>
+</html>
